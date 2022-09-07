@@ -1,0 +1,26 @@
+<html>
+<head>
+        <title></title>
+        <style>
+            .a{
+                border:1px solid black;
+                height:100px;
+                width:100%;
+                background-color: darkorange;
+                color:white;
+            }
+            .b{
+                border:1px solid black;
+                height:100px;
+                width:100%;
+                background-color:darkgoldenrod;
+                color:wheat;
+            }
+
+        </style>
+</head>
+<body>
+        <div class="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. </div><br>
+        <div class="b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+</body>
+</html>

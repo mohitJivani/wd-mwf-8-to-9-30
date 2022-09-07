@@ -1,0 +1,50 @@
+<html>
+<head>
+        <title>introduction</title>
+        <style>
+            h1{
+                border:1px solid black;
+                color:blue;
+                background-color: darkcyan;
+            }
+            h2
+            {
+                border:1px solid black;
+                color:black;
+                background-color: darkblue;
+            }
+            h3
+            {
+                border:1px solid black;
+                color:black;
+                background-color: darkgray;
+            }
+            h4
+            {
+                border:1px solid black;
+                color:blue;
+                background-color:darkkhaki;
+            }
+            h5
+            {
+                border:1px solid black;
+                color:blue;
+                background-color: darkmagenta;
+            }
+            h6
+            {
+                border:1px solid black;
+                color:blue;
+                background-color: darkolivegreen;
+            }            
+        </style>
+</head>
+<body>
+        <h1>hi</h1>
+        <h2>hello</h2>
+        <h3>how are you</h3>
+        <h4>i am fine</h4>
+        <h5>i am mohit</h5>
+        <h6>thank you</h6>
+</body>
+</html>

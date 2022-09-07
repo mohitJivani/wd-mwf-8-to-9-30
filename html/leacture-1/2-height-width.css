@@ -1,0 +1,18 @@
+<html>
+<head>
+        <title>height-width</title>
+        <style>
+            div{
+                border:1px solid black;
+                height:200px;
+                width:200px;
+                background-color:aqua;
+                
+            }
+
+        </style>
+</head>
+<body>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore temporibus similique qui. Eligendi aliquam perferendis praesentium minus modi quasi, amet dicta quia voluptatum laborum delectus voluptate maiores, in expedita.</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<head>
+        <title></title>
+        <style>
+            .a{
+                text-align:left;
+              /*border:1px solid black;*/
+                font-size:50px;
+                
+
+            }
+            .b{
+                text-align:center;
+             /* border:1px solid black;*/
+                font-size:50px;
+            }
+            .c{
+                text-align:right;
+              /*border:1px solid black;*/
+                font-size:50px;
+            }
+
+        </style>
+</head>
+<body>
+        <div class="a">hi </div><br>
+        <div class="b">i am mohit</div><br>
+        <div class="c">thank you</div>
+</body>
+</html>

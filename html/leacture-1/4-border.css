@@ -1,0 +1,22 @@
+<html>
+<head>
+        <title>border</title>
+        <style>
+            .a{
+                height:200px;
+                width:100%;
+                border:1px solid blue;
+            }   
+            .b{
+                height:200px;
+                width:50%;
+                border:1px solid brown;
+            }
+
+        </style>
+</head>
+<body>
+        <div class="a"></div><br>
+        <div class="b"></div>
+</body>
+</html>

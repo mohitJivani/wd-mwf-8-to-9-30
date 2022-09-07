@@ -1,0 +1,57 @@
+<html>
+<head>
+        <title></title>
+        <style>
+            .header{
+                height: auto;
+                width:100%;
+                border:1px solid black;
+                display:flex;
+                background-color:cadetblue;
+            }
+            .menu{
+                font-size:30px;
+                margin-top: 150px;
+                margin-left: 500px;
+                /*border:1px solid black;
+                padding:30px;*/
+                background-color:cadetblue;
+                color:white;
+
+                
+            }    
+            .menu:hover{
+                background-color:blue;
+                font-size:50px;
+                /*color:red;*/
+            }
+            .search{
+                margin-top:160px;
+                margin-left:100px;
+            }
+
+
+
+        </style>
+</head>
+<body>
+        <div class="header">
+            <div class="img">
+                <img src="mohit.jpg">
+            </div>
+            <div class="menu">
+                <a href="">home</a>
+                <a href="">product</a>
+                <a href="">about us</a>
+                <a href="">contact us</a>
+            </div>
+            <div class="search">
+                <input type="text" text="">
+                <button>search</button>
+            </div>
+
+
+
+        </div>
+</body>
+</html>

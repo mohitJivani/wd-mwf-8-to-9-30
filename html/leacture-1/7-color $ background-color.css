@@ -1,0 +1,33 @@
+<html>
+<head>
+        <title>color & background-color</title>
+        <style>
+            h1{
+                background-color:blanchedalmond;
+            }
+            h2{
+                color:blue;
+            }
+            .q{
+                background-color:black;
+                color:wheat;
+            }
+            .w{
+                background-color: aqua;
+                color:blue;
+            }
+            /*div{
+                background-color:cornflowerblue;
+            }*/
+
+        </style>
+</head>
+<body>
+    <div>
+        <h1>  Explicabo quod ullam eos eius recusandae.</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <div class="q">Fuga voluptatum saepe error, eveniet, voluptate hic libero </div>
+        <div class="w">minima vero veritatis recusandae vel ea est fugiat!</div>
+    </div>
+</body>
+</html>

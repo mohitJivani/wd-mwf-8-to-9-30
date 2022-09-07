@@ -1,0 +1,19 @@
+<html>
+<head>
+        <title>marker</title>
+        <style>
+            ::marker{
+                color:red;
+                font-size:50px;
+            
+            }
+        </style>
+</head>
+<body>
+
+        <ul>
+            <li>name</li>
+            <li></li>
+        </ul>
+</body>
+</html>
