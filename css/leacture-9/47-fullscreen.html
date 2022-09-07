@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Full Screen</title>
+    <style>
+
+        #test{
+			width: 150px;
+			height: 150px;
+			background: green;
+			border: 1px solid black;
+			transition: 2s;
+		}
+		#test:fullScreen{
+			background: yellow;
+		}
+
+	</style>
+</head>
+<body>
+    
+	<div id="test">	</div>
+	<br><br>
+	<button onclick="document.getElementById('test').requestFullscreen()">Full Screen </button>
+</body>
+</html>
