@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CONTACTS FORM</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        form{
+            height:600px;
+            width:100%;
+            border:1px solid black;
+            background-color:darkgrey;
+        }
+        h1{
+            background-color:black;
+            width:100%;
+            height:50px;
+            border:1px solid black;
+            color:white;
+            text-align:center;
+            padding-top:30px;
+        }
+        #g{
+            font-size:30px;
+            margin-left:300px;
+            
+        }
+        #a{
+            width:400px;
+            height:50px;
+            border:1px solid black;
+            margin-left:210px;
+            margin-top:100px;
+            background-color:black;
+            color:white;
+        }
+        #f{
+            font-size:30px;
+            margin-left:300px;
+        }
+        #b{
+            width:400px;
+            height:50px;
+            border:1px solid black;
+            margin-left:200px;
+            background-color:black;
+            color:white;
+        }
+        #e{
+            font-size:30px;
+            margin-left:300px;    
+        }
+        #c{
+            width:400px;
+            height:100px;
+            border:1px solid black;
+            margin-left:145px;
+            background-color: black;
+            color:white;
+        } 
+        #d{
+            font-size:25px;
+            background-color: black;
+            color:white;
+            margin-left:300px;
+        } 
+       
+        
+    </style>
+</head>
+<body>
+    
+        <h1>CONTACT  FORM</h1><br>
+    <form>
+        <label id="g">name</label>
+        <input type="text" placeholder="enter name" required id="a"><br><br>
+        <label id="f">e-mail</label>
+        <input type="e-mail" placeholder="enter email id" required id="b"><br><br>
+        <label id="e">description</label>
+        <input type="description" placeholder="enter query question" required id="c"><br><br><br><br><br>
+        <input type="submit" placeholder="submit" id="d">
+    </form>
+</body>
+<script>
+      $(document).ready(function(){
+        $("#d").click(function(){
+            alert("sumited your data")
+        });
+      });
+</script>
+</html>

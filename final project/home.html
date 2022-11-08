@@ -1,0 +1,431 @@
+<html>
+<head>
+        <title>airline</title>
+        
+        <style>
+            .main{
+                height:200px;
+                /* border:1px solid black; */
+                width:100%;
+                background-color: black;
+                color:white;
+            }
+            .a{
+                float:left;
+            }
+            .a h1{
+                padding-top:30px;
+                font-size:30px;
+                padding-left:20px;
+                color:blue;
+                cursor:pointer;
+            }
+            .a p{
+                font-size:20px;
+                padding-left:20px;
+                cursor:pointer;
+            }
+
+            .b{
+                float:right;
+                padding-right:40px;
+                padding-top:50px;
+            }
+
+            .b a{
+                padding:10px;
+                font-size:18px;
+                text-decoration: none;
+                color:white;
+            }
+            .b a:hover{
+                background-color:white;
+                color:black;
+            }
+            .main3{
+                height:350px;
+                width:100%;
+                /* border:1px solid black; */
+            }
+            .main3 img{
+                height:350px;
+                width:80%;
+                /* border:1px solid black; */
+                position:absolute;
+                margin-left:10%;
+            }
+                
+            .main3 p{
+                position:relative;
+                padding-left:200px;
+                padding-top:20px;
+                height:20px;
+                width:30%;
+            }
+            .main4{
+                width:81%;
+                /* border:1px solid black; */
+                height:1000px;
+                margin-left:150px;
+            }
+            .main4 .c{
+                float:left;
+                width:30%;
+                /* border:1px solid black; */
+                height:1000px;
+            }
+            .main4 .c h1{
+                padding-left:10px;
+            }
+            .main4 .c input{
+                margin-left:10px;
+            }
+            .main4 .c label{
+                padding-left:10px;
+                cursor: pointer;;
+            }
+
+            .main4 .d label{
+                padding-left:10px;
+            }
+            .main4 .c button{
+                float:right;
+                margin-right:20px;
+                background-color:blue;
+                color:whitesmoke;
+                cursor:pointer;
+                width:130px;
+                font-size:20px;
+            }
+            .main4 .n{
+                float:right;
+                /* border:1px solid black; */
+                width:67%;
+                height:1000px;
+            }
+            .main4 .c h3{
+                padding-left:10px;
+                font-size:30px;
+            }
+            .h p{
+                padding-left:10px;
+                font-size:18px;
+            }
+            .i p{
+                padding-left:10px;
+
+            }
+            .j p{
+                padding-left:10px;
+
+            }
+            .k p{
+                padding-left:10px;
+
+            }
+            .l p{
+                padding-left:10px;
+
+            }
+            .m p{
+                padding-left:10px;
+
+            }
+            .v{
+                background-color:black;
+                color:white;
+                width:100%;
+                height:100px;
+            }
+            .n h6{
+                padding-left:10px;
+                font-size:25px;
+            }
+            .n p{
+                padding-left:10px;
+            }
+            .n .o li{
+                padding-left:10px;
+                font-size:25px;
+            }
+            .n .o p{
+                padding-left:10px;
+            }
+            .o button{
+                margin-left:580px;
+                width:200px;
+                height:30px;
+                background-color:blue;
+                color:white;
+                cursor:pointer;
+            }
+            .p li{
+                padding-left:10px;
+                font-size:25px;
+            }         
+            .p p{
+                padding-left:10px;
+
+            }
+            .q h3{
+                padding-left:10px;
+                font-size:25px;
+            }
+            .r p{
+                padding-left:10px;
+                font-size:20px;
+                float:left;
+                width:400px;
+                height:120px;
+                /* border:1px solid black; */
+            }
+            .s p{
+                padding-left:10px;
+                font-size:20px;
+                float:left;
+                width:400px;
+                height:120px;
+                /* border:1px solid black; */
+            }
+            .t p{
+                padding-right:100px;
+                padding-bottom: 100px;
+                font-size:20px;
+                float:right;
+                width:200px;
+                height:80px;
+                background-color:blue;
+                color:white;
+            }
+            .v p{
+                padding-top:20px;
+            }
+            .c .w label{
+                padding-left:10px;
+            }    
+            .c .w input{
+                padding-left:10px;
+                width:150px;
+                height:20px;
+            }
+            .c .f input{
+                padding-left:10px;
+                width:150px;
+                height:20px;
+
+            }
+            .h p{
+                padding-left:10px;
+                font-size:20px;
+                color:blue;
+            }
+            .i p{
+                font-size:20px;
+            }
+            .j p{
+                padding-left:10px;
+                font-size:20px;
+                color:blue;
+            }
+            .k p{
+                font-size:20px;
+            }
+            .l p{
+                padding-left:10px;
+                font-size:20px;
+                color:blue;
+            }
+            .m p{
+                font-size:20px;
+            }
+            .c legend{
+                background-color:black;
+                color:white;
+            }
+            .n .p button{
+                cursor:pointer;
+            }
+            @media only screen (max-width:600px)
+            {
+                body
+                {
+                    .main4
+                    {
+                        width:80%;
+
+                    }
+                    .main4 .c
+                    {
+                        width:20%;
+                    }
+                    .main4 .n
+                    {
+                        width:40%;
+                    }
+                    .mohit{
+                        width:20%;
+                        
+                    }             
+                    .p{
+                        width:50px;
+                        height:50px;
+                        border:1px solid black;
+                        float:left;
+                    }          
+                
+                    .q{
+                        width:50px;
+                        height:50px;
+                        border:1px solid black;
+                        float:left;
+                    }
+                    .r{
+                        width:50px;
+                        height:50px;
+                        border:1px solid black;
+                        float:right;
+                    }
+                }
+                
+            }
+
+                
+            
+            
+</style>
+</head>
+<body>
+    <div class="main">
+        <div class="a">
+            <h1>AIRLINES</h1>
+            <p>INTERNATIONAL TRAVEL</p>
+        </div>
+        <div class="b">
+            <a href="HOME.HTML">HOME</a>
+            <a href="OUR AIRCRAFT.HTML">OUR AIRCRAFT</a> 
+            <a href="SAFETY.HTML">SAFETY</a>
+            <a href="CHARTERS.HTML">CHARTERS</a>
+            <a href="CONTACTS.HTML">CONTACTS</a>
+        </div>
+    </div>
+    <div class="main3">
+        <img src="airline.jpg" height="50%" width="50%" class="i1">
+        <!-- <img src="airline1.jpg"height="50%" width="50%" class="i1">
+        <img src="airline2.jpg" height="50%" width="50%" class="i1">
+        <img src="airline3.jpg" height="50%" width="50%" class="i1">
+        <img src="airline4.jpg" height="50%" width="50%" class="i1">
+         -->
+        <h2 style="padding-left:200px;padding-top:10px;position:relative;font-size:35px;" >COMFORT</h2>
+        <h2 style="padding-left:300px;position:relative;font-size:30px;" >Guranteed</h2>
+        <br><br><br><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur, tempore consequatur eaque molestiae ab libero totam magnam voluptate facere numquam eos labore qui? Quasi labore nostrum ipsa aperiam a?</p>
+    </div>
+    <div class="main4">
+            
+        <div class="c">
+            <fieldset><legend>ORDER TICKETS ONLINE</legend></fieldset>    
+            <h1 >Your Flight Planner</h1>            
+            <input type="radio" required>
+            <label>Round Trip
+            </label>
+            <input type="radio" required>
+            <label>Empty-Leg</label><br>
+            <input type="radio" required>
+            <label>Cre Way</label>
+            <input  type="radio" required>
+            <label>Mus-leg</label><br><br>
+            
+            <div class="d">
+                <label>Leaving From</label><br>
+                <input type="text" placeholder="Enter City Or Airpot Code" required ><br><br>
+            </div>
+            <div class="e">
+                <label >Going To</label><br>
+                <input type="text" placeholder="Enter City Or Airport code" required ><br><br>
+            </div>
+            <div class="f">
+                <label >Departure Date and Time</label><br>
+                <input type="text" placeholder="mm/dd/yyyy" required >
+                <input type="text" placeholder="12:00am" required ><br><br>
+            </div>
+            <div class="w">
+                <label>Return date and time</label><br>
+                <input type="text" placeholder="mm/dd/yyyy" required>
+                <input type="text" placeholder="12:00am" required><br><br>
+            </div>
+            <div class="g">
+                <label >Passenger(s):</label><br>
+                <input  type="text" placeholder="Passengers" required>
+            </div><br>
+            <button><a href="go">go</a>go</button>
+            <br><br><h3 >Recent News</h3>
+            <div class="h">
+                <p >Nemo enm ips am voluptatem quia</p>
+            </div>
+            <div class="i">
+                <p >November 5,2010</p><hr>
+            </div>
+            <div class="j">
+                <p >Voluptas aspematur autoditautfjugit</p>
+            </div>
+            <div class="k">
+                <p >November 1,2010</p><hr>
+            </div>
+            <div class="l">
+                <p>Seq quia consequatur magni</p>
+            </div>
+            <div class="m">
+                <p>Octomber 23,2010</p>
+            </div>
+        
+        </div>
+        <div class="n">
+            <h6>Welcome to our Website!</h6>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, molestiae. At dolor delectus nesciunt laudantium maiores. Dolores sequi voluptatibus eius voluptate ut molestiae reiciendis eligendi quasi fugiat deserunt? Suscipit, aperiam.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, quisquam, iste perspiciatis, corporis quam mollitia dolor libero neque tempora alias cumque perferendis obcaecati animi ad impedit voluptates eaque nihil soluta!</p><br>
+            <div class="o">
+                <li>Aircraft</li>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, maxime voluptatibus impedit quidem praesentium aliquid in, nihil ratione aspernatur, excepturi illum. Odio excepturi iure expedita pariatur optio distinctio blanditiis quae.</p>
+                <button>READ MORE</button><br>
+            </div>
+            <div class="p">
+                <li>Charters</li>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id incidunt corporis libero aliquam maiores deleniti nam iusto vitae doloremque, deserunt dolorem eveniet quisquam odit unde cupiditate quam, quidem illo?</p>
+                <button style="margin-left:580px;height:30px;width:70px;color:white;background-color:blue;">FLEET</button>
+                <button style="height:30px;width:130px; background-color:black;color:white;" >RESEERVATION</button>
+           </div>
+           <div class="mohit">
+                <div class="q">
+                    <h3>Our Clients</h3>
+                </div>
+
+                <div class="r">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum nisi provident praesentium officia accusamus odit eius sit. Nisi facilis expedita facere neque, maiores consectetur nihil fuga! Magnam quam veniam ad.</p>
+                </div>
+                
+                <div class="s">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae eius, nesciunt saepe ducimus alias repellat doloremque aspernatur error laborum veniam suscipit eos laboriosam iusto natus nemo dicta vitae velit deleniti.</p>
+                </div>
+            
+                 <div class="t">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quae natus quos architecto est odit, at a sapiente odio maiores unde qui atque.</p>
+                </div>
+            </div>
+            </div>                    
+    </div>
+    </div> 
+        
+            <div class="v">
+                <p style="padding-left:20px;float:left;">Copyrightc2010 Domain Name All Rights Reserved  </p>
+                <p style="padding-right:20px;float:right;">Free CSS Template by TemplateMoster</p>
+            </div>     
+            <div class="x">
+                
+            </div>
+        
+</body>
+<script>
+
+
+</script>
+</html>
