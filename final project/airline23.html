@@ -1,7 +1,7 @@
 <html>
 <head>
         <title>airline</title>
-        
+        <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
         <style>
             .main{
                 height:200px;
@@ -246,6 +246,28 @@
                 cursor:pointer;
             }
                             
+            @midia( max-width:320px){
+
+                body{ 
+                    .o button{
+                        margin-right:200px;
+                    }
+                    .r p{
+                        width:200px;
+                        
+                    }             
+                    .s p{
+                        width:200px;
+                    }
+                    .t p{
+                        margin-bottom:300px;
+                        height:300px;
+                        width:200px;
+                    }
+                }
+
+            }
+
             
             
 </style>
@@ -257,7 +279,8 @@
             <p>INTERNATIONAL TRAVEL</p>
         </div>
         <div class="b">
-            <a href="HOME.HTML">HOME</a>
+            <!-- <i class="fa-thin fa-house">home</i><br> -->
+            <a href="home.HTML">HOME</a>
             <a href="OUR AIRCRAFT.HTML">OUR AIRCRAFT</a> 
             <a href="SAFETY.HTML">SAFETY</a>
             <a href="CHARTERS.HTML">CHARTERS</a>
@@ -371,16 +394,16 @@
     </div>
     </div> 
         
-            <div class="v">
-                <p style="padding-left:20px;float:left;">Copyrightc2010 Domain Name All Rights Reserved  </p>
-                <p style="padding-right:20px;float:right;">Free CSS Template by TemplateMoster</p>
-            </div>     
-            
+    <div class="v">
+        <p style="padding-left:20px;float:left;">Copyrightc2010 Domain Name All Rights Reserved  </p>
+        <p style="padding-right:20px;float:right;">Free CSS Template by TemplateMoster</p>
+    </div>     
         
+
 </body>
 <script>
-    slider=0;
-        function slider()
+    slider=0
+    function slider()
         {
             var img=document.getElementsByClassName("i1");
             for(var i=0;i<=4;i++)
@@ -395,6 +418,5 @@
             ar++;
             setTimeout(slider,1000)
         }
-        slider();
 </script>
 </html>
