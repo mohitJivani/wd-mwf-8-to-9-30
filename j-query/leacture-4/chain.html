@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chain in J-Query</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+		<h1 id="a">This is First h1</h1>
+		<h1 id="b">This is Second h1</h2>
+		<h1 id="c">This is Third h1</h3>
+		<h1 id="d">This is Fourth h1</h4>
+		<button>click here</button>
+
+</body>
+<script type="text/javascript">
+	
+	var r=$.noConflict();
+
+	r(document).ready(function(){
+		r("button").click(function(){
+			r("#a,#b,#c,#d").css("color","red")
+		})
+	});
+
+</script>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fade_Out</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<style>
+        .main{
+            width:100%;
+            border:1px solid black;
+            height:200px;
+            background-color:darkcyan;
+            display:flex;
+            justify-content: space-between;
+        }
+        .m{
+            width:200px;
+            height:200px;
+            border:1px solid black;
+            background-color:palevioletred;
+        }
+        .o{
+            width:200px;
+            height:200px;
+            border:1px solid black;
+            background-color:aqua;
+        }
+        .h{
+            width:200px;
+            height:200px;
+            border:1px solid black;
+            background-color:blueviolet;
+        }
+	</style>
+	
+</head>
+<body>
+    <div class="main">
+	    <div class="m"></div>
+	    <div class="o"></div>
+	    <div class="h"></div>
+    </div>
+	<button>Fade Out</button>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			$(".m,.o,.h").fadeOut(5000)
+		});
+	});
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+

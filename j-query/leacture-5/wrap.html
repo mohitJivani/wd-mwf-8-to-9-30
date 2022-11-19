@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>wrap</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        p{
+            width:100%;
+            background-color:black;
+            color:white;
+            height:200px;
+            border:1px solid black;
+        }
+    
+
+    </style>
+</head>
+<body>
+        <h1>welcome to rajkot</h1>
+        <h1>welcome to ahmedabad</h1>
+        <button>wrap</button>
+</body>
+<script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("h1").wrap("<div></div>");
+            })
+        })
+</script>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+            .slider{
+                width:100%;
+                /* border:1px solid black; */
+                height:500px;
+            }
+            .slider button{
+            margin-left:300px;
+            font-size:20px;
+            }
+            .slide{
+                width:100%;
+                height:450px;
+                background-color:lime;
+                display:none;
+            }
+    </style>
+</head>
+<body>
+        <div class="slider">
+            <button id="a">slide down</button>
+            <button id="b">slide up</button>
+            <button id="c">stop</button>
+            <div class="slide"></div>
+        </div>
+</body>
+<script>
+        $(document).ready(function(){
+            $("#a").click(function(){
+                $(".slide").slideDown(5000)
+            })
+            $("#b").click(function(){
+                $(".slide").slideUp(3000)
+            })
+            $("#c").click(function(){
+                $(".slide").stop()
+            })
+        })
+</script>
+</html>

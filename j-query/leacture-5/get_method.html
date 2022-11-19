@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>get method</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<b> Eos modi magni doloremque, quasi minus</b> aperiam omnis cum esse deserunt atque et,<strong> alias delectus soluta dicta blanditiis sequi.</strong> Consequuntur, doloribus ratione!</p>
+        <button id="a">get text</button>
+        <button id="b">html tag</button>
+</body>
+<script>
+        $(document).ready(function(){
+            $("#a").click(function(){
+                alert($("p").text())
+            })
+            $("#b").click(function(){
+                alert($("p").html())
+            })
+        })
+</script>
+</html>

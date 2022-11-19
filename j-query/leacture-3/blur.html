@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blur Event</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<style type="text/css">
+		form{
+			border: 1px solid black;
+			background: skyblue;
+			width: 200px;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<input type="text"  placeholder="enter user name"  id="a" style="text-align:center;"><br><br>
+		<input type="password" name="" placeholder="Password" id="b" style="text-align:center;"><br><br>
+		<input type="submit" name="" value="submit" style="background-color:black;color:white;">
+
+	</form>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#a").blur(function(){
+			$("#a").css("backgroundColor","skyblue")
+		});
+
+		$("#b").blur(function(){
+			$("#b").css("backgroundColor","pink")
+		})
+	});
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

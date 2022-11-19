@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Multi-CSS</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
+	<button>Click css</button>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("h1").css({backgroundColor:"skyblue",color:"red",border:"1px solid black"});
+		});
+	})
+</script>
+</html>

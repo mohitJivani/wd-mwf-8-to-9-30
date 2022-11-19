@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        form{
+            width:200px;
+            height:150px;
+            border:1px solid black;
+            padding:5px;
+            background-color:darkgray;
+        
+        }
+    </style>
+</head>
+<body>
+        <form>
+            <input type="text" placeholder="enter name" id="a" style="text-align:center;background-color:pink;margin-top:30px;margin-left:10px;"><br><br>
+            <input type="password" placeholder="enter your password" style="text-align:center;background-color:skyblue;margin-left:10px;" id="b"><br><br>
+            <input type="submit" placeholder="sign in" style="background-color:black;color:white;margin-left:50px;" id="c">
+        </form>
+</body>
+<script>
+        $(document).ready(function(){
+            $("#a").focus(function(){
+                $("#a").css("backgroundColor","purple")
+            })
+            $("#b").blur(function(){
+                $("#b").css("backgroundColor","red");
+            })
+        })
+</script>
+</html>

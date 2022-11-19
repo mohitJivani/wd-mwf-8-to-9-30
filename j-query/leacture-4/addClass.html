@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Add Class</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<style type="text/css">
+		.a{
+			
+			background-color:skyblue ;
+			color: black;			
+			font-size: 40px;
+			
+		}
+	</style>
+</head>
+<body>
+		<div>hi hello welcome</div>
+		<button>Add Class</button>
+
+</body>
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("div").addClass("a")
+		});
+	});
+
+</script>
+</html>

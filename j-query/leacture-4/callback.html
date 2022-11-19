@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Callback</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+	<h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit id magnam unde harum fugit, hic magni corrupti, temporibus voluptatibus, quibusdam distinctio natus.</h1>
+	<button>click here to hide</button>
+
+
+</body>
+<script type="text/javascript">
+	var mohit=$.noConflict()
+
+		mohit(document).ready(function(){
+			mohit("button").click(function(){
+				mohit("h1").hide(2000);
+				alert("done");
+			});
+				
+			
+		});
+
+
+
+</script>
+</html>
